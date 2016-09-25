@@ -4,37 +4,11 @@ using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.Drawing;
 using System.Data;
-//细节。。。
-//1.数字之后直接接括号默认为乘法，括号之后直接接数字，默认为乘法
-//2.输入一个运算符（+ - * /）后不能接着继续输入运算符，若已有运算符，不相同则替换，‘（’后不能直接跟运算符。刚开始不能输入运算符。
-//v4.0
-//更改了方向键
-//添加了根号运算
-//修正一些bug
-//V5.0
-//取消括号的输入限制
-//增加了cos sin tan运算
-//运算式和输出结果分行表示
-//增加了减法的负号功能
-//增加了三次根
-//待补充。。
-//v6.0
-//增加了log,ln等功能
-//增加了Mood功能
-//增加了菜单，功能未完善
+
 
 namespace Simple_calculate
 {
-    /*struct inform
-    {
-        inform(int a)
-        {
-            leftbracket = a;
-            rightbracket = a;
-        }
-        public int leftbracket;
-        public int rightbracket;
-    }*/
+
     public partial class Form1 : Form
     {
         private double preAnswer;                        //前一个答案
